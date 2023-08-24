@@ -31,6 +31,8 @@ class LoginActivity : AppCompatActivity() {
             val isValidEmail = text?.endsWith("@gmail.com") ?: false
             binding.tilEmail.error = if (isValidEmail) null else "Por favor utiliza un correo Gmail"
         }
+        //user: stephanomarr42@gmail.com
+        //pass: 123456789
     }
 
     private fun signInWithEmailAndPassword(email: String, password: String) {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/digimonListFragment"
+        android:title="Lista"
+        android:icon="@drawable/ic_list"/>
+
+    <item android:id="@+id/digimonFavoriteFragment"
+        android:title="Favorito"
+        android:icon="@drawable/ic_favorite"/>
+
+    <item android:id="@+id/digimonDetailFragment"
+        android:title="Info"
+        android:icon="@drawable/ic_info"/>
+</menu>
